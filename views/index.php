@@ -39,7 +39,7 @@
           <form method="POST" role="form">
             <div class="form-group">
               <input type="hidden" name="method" value="hash"/>
-              <input type="text" class="form-control" id="stringToHash" name="stringToHash" placeholder="Enter string to bcrypt..."/>
+              <input autofocus type="text" class="form-control" id="stringToHash" name="stringToHash" placeholder="Enter string to bcrypt..."/>
             </div>   
             <div class="form-group">
               <input disabled type="text" class="form-control" id="hashResult" value="<?php echo $hashResult;?>">
