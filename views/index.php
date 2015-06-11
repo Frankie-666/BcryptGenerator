@@ -42,7 +42,7 @@
               <input autofocus type="text" class="form-control" id="stringToHash" name="stringToHash" placeholder="Enter string to bcrypt..."/>
             </div>   
             <div class="form-group">
-              <input disabled type="text" class="form-control" id="hashResult" value="<?php echo $hashResult;?>">
+              <input readonly type="text" class="form-control" id="hashResult" value="<?php echo $hashResult;?>">
             </div>      
             <button type="submit" class="btn btn-default btn-sm">Submit</button>    
           </form>
